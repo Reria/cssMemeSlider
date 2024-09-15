@@ -129,6 +129,7 @@ padding: 0 auto;
   font-size: 30px;
   border-radius: 5px;
   margin-right: 10px;
+  height: 80px;
 }
 
 #slide1:checked~.memslider-footer .memcaption-container .caption:nth-child(1),
