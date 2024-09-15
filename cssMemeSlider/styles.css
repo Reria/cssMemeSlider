@@ -27,16 +27,12 @@ h1 {
 }
 
 .mem-slider-container {
-  position: relative;
   max-width: 850px;
   max-height: 80%;
   margin: 20px auto 0px;
   overflow: hidden;;
 }
 
-.mem-slider {
-  position: relative;
-}
 
 input[type="radio"] {
   display: none;
