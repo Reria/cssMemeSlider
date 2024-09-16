@@ -31,6 +31,7 @@ h1 {
   max-height: 80%;
   margin: 20px auto 0px;
   overflow: hidden;;
+  
 }
 
 
@@ -109,7 +110,7 @@ padding: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 auto 60px;
 }
 
 .memcaption-container {
@@ -125,7 +126,6 @@ padding: 0 auto;
   font-size: 30px;
   border-radius: 5px;
   margin-right: 10px;
-  height: 80px;
 }
 
 #slide1:checked~.memslider-footer .memcaption-container .caption:nth-child(1),
@@ -166,6 +166,35 @@ padding: 0 auto;
 #slide2:checked~.indicators label:nth-child(2),
 #slide3:checked~.indicators label:nth-child(3) {
   background-color: #333;
+}
+
+.repository-href {
+  display: flex;
+  justify-content: center;
+}
+
+.repository-href p {
+  display: block;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  padding: 10px 12px;
+  border-radius: 5px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #fff;
+  background-color: #aa8488;
+  cursor: pointer;
+  border: solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 768px) {
